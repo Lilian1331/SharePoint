@@ -12,6 +12,7 @@ export default class DevOpsDemo extends React.Component<IDevOpsDemoProps, {}> {
             <div className={ styles.column }>
               <span className={ styles.title }>Welcome to SharePoint!</span>
               <p className={ styles.subTitle }>This is the 1st project which is deployed by Azure DevOps.</p>
+              <p className={ styles.subTitle }>Testing 1st Commit.</p>
               <p className={ styles.description }>{escape(this.props.description)}</p>
               <a href="https://aka.ms/spfx" className={ styles.button }>
                 <span className={ styles.label }>Learn more</span>
